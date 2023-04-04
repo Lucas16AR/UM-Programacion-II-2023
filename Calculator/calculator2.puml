@@ -1,0 +1,27 @@
+@startuml CalculatorAPP
+
+class Calculator
+
+interface Calc {
+  +Show Buttoms()
+
+class Menu {
+  +Operation(num1: double, num2: double):
+  void methods()
+}
+
+class Operation {
+  +Operation(num1: int, num2: int)
+  void methods(plus = +, minus = -, multiply = *, divide = /)
+}
+
+class Result {
+  +ShowResult(): 
+  void methods()
+}
+
+Calc --|> Operation
+Operation --|> Result
+
+
+@enduml
