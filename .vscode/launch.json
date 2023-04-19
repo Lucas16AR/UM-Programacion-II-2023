@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConsumingRestApplication",
+            "request": "launch",
+            "mainClass": "com.example.ConsumingRest.ConsumingRestApplication",
+            "projectName": "Consuming-Rest"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
