@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MysqlExampleApplication",
+            "request": "launch",
+            "mainClass": "com.example.mysql_example.MysqlExampleApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "ConsumingRestApplication",
             "request": "launch",
             "mainClass": "com.example.ConsumingRest.ConsumingRestApplication",
